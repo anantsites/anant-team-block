@@ -1,0 +1,20 @@
+{
+    "name": "anant-team-member",
+    "version": "0.0.1",
+    "description": "We have provided Post templates that work with all WordPress themes.",
+    "main": "index.js",
+    "scripts": {
+        "start": "wp-scripts start",
+        "build": "wp-scripts build"
+    },
+    "author": "Anantsites",
+    "license": "GPLv3",
+    "devDependencies": {
+        "@wordpress/scripts": "^26.11.0"
+    },
+    "dependencies": {
+        "@fonticonpicker/react-fonticonpicker": "^1.2.0",
+        "@wordpress/blocks": "^12.17.0",
+        "react-select": "^5.7.4"
+    }
+}
