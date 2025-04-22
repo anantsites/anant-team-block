@@ -21,9 +21,9 @@ export function CustomBorderControl({ values, onChange}, props) {
 
 	return (
 		<>
-			<BaseControl className="atm-border-control">
-                <div className='atm-border-main-label'>
-                <label for="atm-border-control-label" className='atm-border-label'>{__("Border Type", "anant-team-member")}</label>
+			<BaseControl className="antm-border-control">
+                <div className='antm-border-main-label'>
+                <label for="antm-border-control-label" className='antm-border-label'>{__("Border Type", "anant-team-member")}</label>
                     <SelectControl
                         options={ [
                             { label: 'Default', value: 'default' },

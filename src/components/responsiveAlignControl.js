@@ -69,12 +69,12 @@ export function ResponsiveAlignControl({ choose, onChange, label = "" }, props) 
 	
 	return (
 		<>
-		<BaseControl className="atm-res-choose-control" >
-			<div className='atm-res-choose-controls'>
-				<div className='atm-res-choose-label'>
+		<BaseControl className="antm-res-choose-control" >
+			<div className='antm-res-choose-controls'>
+				<div className='antm-res-choose-label'>
 					{__(label, "anant-team-member")}
 				</div>
-				<div className='atm-res-choose-res-btn'>
+				<div className='antm-res-choose-res-btn'>
 					<span
 						onClick={(event) =>
 							handleDesktopBtnClick(event, {
@@ -85,7 +85,7 @@ export function ResponsiveAlignControl({ choose, onChange, label = "" }, props) 
 							})
 							
 						}
-						className={`atmResButton dashicons dashicons-desktop ${
+						className={`antmResButton dashicons dashicons-desktop ${
 							ChooseValue.resOption === "Desktop" ? "active" : " "
 						}`}>
 					</span>
@@ -98,7 +98,7 @@ export function ResponsiveAlignControl({ choose, onChange, label = "" }, props) 
 								setAttributes,
 							})
 						}
-						className={`atmResButton dashicons dashicons-tablet ${
+						className={`antmResButton dashicons dashicons-tablet ${
 							ChooseValue.resOption === "Tablet" ? "active" : " "
 						}`}>
 					</span>
@@ -111,13 +111,13 @@ export function ResponsiveAlignControl({ choose, onChange, label = "" }, props) 
 								setAttributes,
 							})
 						}
-						className={`atmResButton dashicons dashicons-smartphone ${
+						className={`antmResButton dashicons dashicons-smartphone ${
 							ChooseValue.resOption === "Mobile" ? "active" : " "
 						}`}>
 					</span>
 				</div>
 			</div>
-			<div className='atm-res-choose-toggle-container'>
+			<div className='antm-res-choose-toggle-container'>
 				{ChooseValue.resOption == "Desktop" && (
 					<ToggleGroupControl 
 						value={ChooseValue.desktop}

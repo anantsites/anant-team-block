@@ -43,28 +43,28 @@ export function CustomGradientControl({ values, onChange, label = "" }, props) {
 
     return (
         <>
-            <div className="atm-color-type-control">
+            <div className="antm-color-type-control">
                 <div className='control-label-wrapper'>
-                    <div className="atm-color-type-controls">
-                        <label for="atm-color-type-control-label" className='atm-color-type-label'>{__(label, "anant-team-member")}</label>
-                        <div className="atm-color-type-control-tab">
+                    <div className="antm-color-type-controls">
+                        <label for="antm-color-type-control-label" className='antm-color-type-label'>{__(label, "anant-team-member")}</label>
+                        <div className="antm-color-type-control-tab">
                             <button
                                 type="button"
-                                className={`components-button atm-gradient-tab-button ${ControlValue.colorOpt === 'color' ? 'is-active' : ''}`}
+                                className={`components-button antm-gradient-tab-button ${ControlValue.colorOpt === 'color' ? 'is-active' : ''}`}
                                 onClick={() => onSelectTab('color')}
                             >
                                 <span className="dashicons dashicons-admin-customizer"></span>
                             </button>
                             <button
                                 type="button"
-                                className={`components-button atm-gradient-tab-button ${ControlValue.colorOpt === 'gradient' ? 'is-active' : ''}`}
+                                className={`components-button antm-gradient-tab-button ${ControlValue.colorOpt === 'gradient' ? 'is-active' : ''}`}
                                 onClick={() => onSelectTab('gradient')}
                             >
                                 <span className="fas fa-barcode"></span>
                             </button>
                         </div>
                     </div>
-                    <div className="atm-color-types">
+                    <div className="antm-color-types">
                         <ColorPickerControl
                             values={ControlValue.colorOne}
                             onChange={(value) => {
@@ -81,20 +81,20 @@ export function CustomGradientControl({ values, onChange, label = "" }, props) {
                         />
                         {ControlValue.colorOpt === 'gradient' && (
                             <>
-                            <div className='atm-range-controls'>
-                                <div className='atm-range-label'>
+                            <div className='antm-range-controls'>
+                                <div className='antm-range-label'>
                                     {__("Location", "anant-team-member")}
                                 </div>
-                                <div className='atm-units-container'>
+                                <div className='antm-units-container'>
                                     <Dropdown
-                                        className="atm-units-dropdown"
+                                        className="antm-units-dropdown"
                                         renderToggle={({ isOpen, onToggle }) => (
-                                            <Button variant="primary" className='atm-units-button'>%</Button>
+                                            <Button variant="primary" className='antm-units-button'>%</Button>
                                         )}
                                     />
                                 </div>
                             </div>
-                            <div className='atm-range-inner' style={{marginBottom: "20px"}}>
+                            <div className='antm-range-inner' style={{marginBottom: "20px"}}>
                                 <RangeControl
                                     value={ControlValue.locationOne}
                                     onChange={(value) => {
@@ -125,20 +125,20 @@ export function CustomGradientControl({ values, onChange, label = "" }, props) {
                                 }}
                                 label="Second Color"
                             />
-                            <div className='atm-range-controls'>
-                                <div className='atm-range-label'>
+                            <div className='antm-range-controls'>
+                                <div className='antm-range-label'>
                                     {__("Location", "anant-team-member")}
                                 </div>
-                                <div className='atm-units-container'>
+                                <div className='antm-units-container'>
                                     <Dropdown
-                                        className="atm-units-dropdown"
+                                        className="antm-units-dropdown"
                                         renderToggle={({ isOpen, onToggle }) => (
-                                            <Button variant="primary" className='atm-units-button'>%</Button>
+                                            <Button variant="primary" className='antm-units-button'>%</Button>
                                         )}
                                     />
                                 </div>
                             </div>
-                            <div className='atm-range-inner' style={{marginBottom: "20px"}}>
+                            <div className='antm-range-inner' style={{marginBottom: "20px"}}>
                                 <RangeControl
                                     value={ControlValue.locationTwo}
                                     onChange={(value) => {
@@ -155,8 +155,8 @@ export function CustomGradientControl({ values, onChange, label = "" }, props) {
                                     max={100}
                                 />
                             </div>
-                            <div className='atm-color-type'>
-                                <label for="atm-color-type-label" className='atm-color-type-label'>{__("Type", "anant-team-member")}</label>
+                            <div className='antm-color-type'>
+                                <label for="antm-color-type-label" className='antm-color-type-label'>{__("Type", "anant-team-member")}</label>
                                 <SelectControl
                                     options={ [
                                         { label: 'Linear', value: 'linear-gradient' },
@@ -176,8 +176,8 @@ export function CustomGradientControl({ values, onChange, label = "" }, props) {
                                 />
                             </div>
                             {ControlValue.type === 'radial-gradient' && (
-                            <div className='atm-color-type'>
-                                <label for="atm-color-position-label" className='atm-color-type-label'>{__("Position", "anant-team-member")}</label>
+                            <div className='antm-color-type'>
+                                <label for="antm-color-position-label" className='antm-color-type-label'>{__("Position", "anant-team-member")}</label>
                                 <SelectControl
                                     options={ [
                                         { label: 'Center Center', value: 'center center' },
@@ -206,20 +206,20 @@ export function CustomGradientControl({ values, onChange, label = "" }, props) {
                             )}
                             {ControlValue.type === 'linear-gradient' && (
                             <>
-                            <div className='atm-range-controls'>
-                                <div className='atm-range-label'>
+                            <div className='antm-range-controls'>
+                                <div className='antm-range-label'>
                                     {__("Angle", "anant-team-member")}
                                 </div>
-                                <div className='atm-units-container'>
+                                <div className='antm-units-container'>
                                     <Dropdown
-                                        className="atm-units-dropdown"
+                                        className="antm-units-dropdown"
                                         renderToggle={({ isOpen, onToggle }) => (
-                                            <Button variant="primary" className='atm-units-button' style={{textTransform: "lowercase"}}>deg</Button>
+                                            <Button variant="primary" className='antm-units-button' style={{textTransform: "lowercase"}}>deg</Button>
                                         )}
                                     />
                                 </div>
                             </div>
-                            <div className='atm-range-inner'>
+                            <div className='antm-range-inner'>
                                 <RangeControl
                                     value={ControlValue.angle}
                                     onChange={(value) => {

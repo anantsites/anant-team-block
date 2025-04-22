@@ -19,8 +19,8 @@ export function ColorPickerControl({ values, onChange, label="" },props) {
 	return (
 		<div className="color-picker-control">
 			<div className="control-label-wrapper">
-			<div className='atm-color-controls'>
-				<label for="atm-color-control-label" className='atm-color-label'>{__(label, "anant-team-member")}</label>
+			<div className='antm-color-controls'>
+				<label for="antm-color-control-label" className='antm-color-label'>{__(label, "anant-team-member")}</label>
 				<div className="button-wrapper">
 					{colorValue.enable && (
 						<Button
@@ -35,11 +35,11 @@ export function ColorPickerControl({ values, onChange, label="" },props) {
 								setPopoverOpen(false);
 							}}
 						>
-							<Dashicon className='atm-reset' icon="image-rotate" />
+							<Dashicon className='antm-reset' icon="image-rotate" />
 						</Button>
 					)}
 					<Button
-					className='atm-color-toggle'
+					className='antm-color-toggle'
 						onClick={() => {
 							onChange({ ...colorValue, enable: true });
 							setColorValue({ ...colorValue, enable: true });
@@ -48,7 +48,7 @@ export function ColorPickerControl({ values, onChange, label="" },props) {
 						isPressed={popoverOpen === true}
 						variant="secondary"
 					>
-						<span className='atm-defined-color' style={{background: colorValue.color}}></span>
+						<span className='antm-defined-color' style={{background: colorValue.color}}></span>
 					</Button>
 				</div>
 			</div>

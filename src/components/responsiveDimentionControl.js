@@ -75,12 +75,12 @@ export function ResponsiveDimentionControl({ multinum, onChange, label = "" }, p
 	
 	return (
 		<>
-		<BaseControl className="atm-res-dimension">
-			<div className='atm-res-dimension-label-n-unit'>
-				<div className='atm-res-dimension-label'>
+		<BaseControl className="antm-res-dimension">
+			<div className='antm-res-dimension-label-n-unit'>
+				<div className='antm-res-dimension-label'>
 					{__(label, "anant-team-member")}
 				</div>
-				<div className='atm-res-dimension-res-btn' >
+				<div className='antm-res-dimension-res-btn' >
 					<span
 						onClick={(event) =>
 							handleDesktopBtnClick(event, {
@@ -91,7 +91,7 @@ export function ResponsiveDimentionControl({ multinum, onChange, label = "" }, p
 							})
 							
 						}
-						className={`atmResButton dashicons dashicons-desktop ${
+						className={`antmResButton dashicons dashicons-desktop ${
 							MultiNumValue.resOption === "Desktop" ? "active" : " "
 						}`}>
 					</span>
@@ -104,7 +104,7 @@ export function ResponsiveDimentionControl({ multinum, onChange, label = "" }, p
 								setAttributes,
 							})
 						}
-						className={`atmResButton dashicons dashicons-tablet ${
+						className={`antmResButton dashicons dashicons-tablet ${
 							MultiNumValue.resOption === "Tablet" ? "active" : " "
 						}`}>
 					</span>
@@ -117,19 +117,19 @@ export function ResponsiveDimentionControl({ multinum, onChange, label = "" }, p
 								setAttributes,
 							})
 						}
-						className={`atmResButton dashicons dashicons-smartphone ${
+						className={`antmResButton dashicons dashicons-smartphone ${
 							MultiNumValue.resOption === "Mobile" ? "active" : " "
 						}`}>
 					</span>
 				</div>
-				<div className='atm-units-container'>
+				<div className='antm-units-container'>
 					<Dropdown
-						className="atm-units-dropdown"
-						contentClassName="atm-dropdown-unit-items"
+						className="antm-units-dropdown"
+						contentClassName="antm-dropdown-unit-items"
 						isOpen={isDropdownOpen}
 						onClose={toggleDropdown}
 						renderToggle={({ isOpen, onToggle }) => (
-							<Button variant="primary" onClick={onToggle} aria-expanded={isOpen} className='atm-units-button'>
+							<Button variant="primary" onClick={onToggle} aria-expanded={isOpen} className='antm-units-button'>
 								{(MultiNumValue[currentDeviceType.toLowerCase()] ? MultiNumValue[currentDeviceType.toLowerCase()].unit : '')}
 							</Button>
 						)}
@@ -138,7 +138,7 @@ export function ResponsiveDimentionControl({ multinum, onChange, label = "" }, p
 								{units.map((unit) => (
 									<button
 										key={unit}
-										className='atm-units-menus'
+										className='antm-units-menus'
 										onClick={() => {
 											// Handle unit selection based on the current device type
 											setMultiNumValue({

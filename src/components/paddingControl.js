@@ -75,8 +75,8 @@ export function PaddingControl({ values, onChange }, props) {
 
     return (
         <>
-            <div className='atm-dimension-container'>
-                <div className='atm-dimension-inner'>
+            <div className='antm-dimension-container'>
+                <div className='antm-dimension-inner'>
                     <UnitControl
                         label="Top"
                         labelPosition="bottom"

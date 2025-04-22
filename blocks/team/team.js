@@ -7,7 +7,7 @@ import attributes from "./attributes";
 import { Style } from './style.js';
 import { OpenSidebar } from '/src/components/compileStyle.js'; 
 
-registerBlockType( 'atm/team', {
+registerBlockType( 'antm/team', {
 title: 'Team Member',
 description: 'Team Block Desc.',
 category: 'anant-team-member',
@@ -56,21 +56,21 @@ edit: (props) => {
     <Fragment >
       <Style { ...props } />
       <Inspector { ...props } />
-      <div className={`atm-block-container-${attributes.yourId} ${ attributes.hideDesktop ? 'hidden-desktop' : '' } ${ attributes.hideTablet ? 'hidden-tablet' : '' } ${ attributes.hideMobile ? 'hidden-mobile' : '' }`}>
-      <div className={`atm-team-member team-member-wapper-${attributes.yourId}`} onClick={OpenSidebar} >
+      <div className={`antm-block-container-${attributes.yourId} ${ attributes.hideDesktop ? 'hidden-desktop' : '' } ${ attributes.hideTablet ? 'hidden-tablet' : '' } ${ attributes.hideMobile ? 'hidden-mobile' : '' }`}>
+      <div className={`antm-team-member team-member-wapper-${attributes.yourId}`} onClick={OpenSidebar} >
         <div className="inner">
           { attributes.showImage === true && 
             <>
-              <div className="atm-team-card-image">  
+              <div className="antm-team-card-image">  
               { attributes.image && 
-                <img className="atm-member-img" src={ attributes.image } alt={ attributes.alt } />
+                <img className="antm-member-img" src={ attributes.image } alt={ attributes.alt } />
               }
               </div>
             </>
           }
           { ( attributes.showName === true || attributes.showDesignation === true || attributes.showicons === true ) && 
             <>
-              <div className="atm-bottom-content">
+              <div className="antm-bottom-content">
                 <div className="heading">
                     { attributes.showName === true && 
                       <>
@@ -132,21 +132,21 @@ save: ( props ) => {
   return(
     <Fragment {...useBlockProps.save()}>
       <Style { ...props } />
-      <div className={`atm-block-container-${attributes.yourId} ${ attributes.hideDesktop ? 'hidden-desktop' : '' } ${ attributes.hideTablet ? 'hidden-tablet' : '' } ${ attributes.hideMobile ? 'hidden-mobile' : '' }`}>
-        <div className={`atm-team-member team-member-wapper-${attributes.yourId}`}>
+      <div className={`antm-block-container-${attributes.yourId} ${ attributes.hideDesktop ? 'hidden-desktop' : '' } ${ attributes.hideTablet ? 'hidden-tablet' : '' } ${ attributes.hideMobile ? 'hidden-mobile' : '' }`}>
+        <div className={`antm-team-member team-member-wapper-${attributes.yourId}`}>
           <div className="inner">
             { attributes.showImage === true && 
               <>
-                <div className="atm-team-card-image">  
+                <div className="antm-team-card-image">  
                 { attributes.image && 
-                  <img className="atm-member-img" src={ attributes.image } alt={ attributes.alt } />
+                  <img className="antm-member-img" src={ attributes.image } alt={ attributes.alt } />
                 }
                 </div>
               </>
             }
             { ( attributes.showName === true || attributes.showDesignation === true || attributes.showicons === true ) && 
               <>
-                <div className="atm-bottom-content">
+                <div className="antm-bottom-content">
                   <div className="heading">
                     { attributes.showName === true && 
                       <>

@@ -84,12 +84,12 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 	
 	return (
 		<>
-			<BaseControl className="atm-res-range-control" >
-				<div className='atm-res-range-controls'>
-					<div className='atm-res-range-label'>
+			<BaseControl className="antm-res-range-control" >
+				<div className='antm-res-range-controls'>
+					<div className='antm-res-range-label'>
 						{__(label, "anant-team-member")}
 					</div>
-					<div className='atm-res-range-res-btn' >
+					<div className='antm-res-range-res-btn' >
 						<span
 							onClick={(event) =>
 								handleDesktopBtnClick(event, {
@@ -100,7 +100,7 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 								})
 								
 							}
-							className={`atmResButton dashicons dashicons-desktop ${
+							className={`antmResButton dashicons dashicons-desktop ${
 								rangeValue.resOption === "Desktop" ? "active" : " "
 							}`}>
 						</span>
@@ -113,7 +113,7 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 									setAttributes,
 								})
 							}
-							className={`atmResButton dashicons dashicons-tablet ${
+							className={`antmResButton dashicons dashicons-tablet ${
 								rangeValue.resOption === "Tablet" ? "active" : " "
 							}`}>
 						</span>
@@ -126,19 +126,19 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 									setAttributes,
 								})
 							}
-							className={`atmResButton dashicons dashicons-smartphone ${
+							className={`antmResButton dashicons dashicons-smartphone ${
 								rangeValue.resOption === "Mobile" ? "active" : " "
 							}`}>
 						</span>
 					</div>
-					<div className='atm-units-container'>
+					<div className='antm-units-container'>
 						<Dropdown
-							className="atm-units-dropdown"
-							contentClassName="atm-dropdown-unit-items"
+							className="antm-units-dropdown"
+							contentClassName="antm-dropdown-unit-items"
 							isOpen={isDropdownOpen}
 							onClose={toggleDropdown}
 							renderToggle={({ isOpen, onToggle }) => (
-								<Button variant="primary" onClick={onToggle} aria-expanded={isOpen} className='atm-units-button'>
+								<Button variant="primary" onClick={onToggle} aria-expanded={isOpen} className='antm-units-button'>
 									{(rangeValue[currentDeviceType.toLowerCase()] ? rangeValue[currentDeviceType.toLowerCase()].unit : '')}
 								</Button>
 							)}
@@ -147,7 +147,7 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 									{units.map((unit) => (
 										<button
 											key={unit}
-											className='atm-units-menus'
+											className='antm-units-menus'
 											onClick={() => {
 												// Handle unit selection based on the current device type
 												setrangeValue({
@@ -176,9 +176,9 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 					</div>
 				</div>
 				{rangeValue.resOption == "Desktop" && (
-					<div className='atm-res-range-inner'>
+					<div className='antm-res-range-inner'>
 						<RangeControl
-						className='atm-reset'
+						className='antm-reset'
 							value={rangeValue.desktop.val}
 							onChange={(value) => {
 								setrangeValue({
@@ -205,9 +205,9 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 					</div>
 				)}
 				{rangeValue.resOption == "Tablet" && (
-					<div className='atm-res-range-inner'>
+					<div className='antm-res-range-inner'>
 						<RangeControl
-						className='atm-reset'
+						className='antm-reset'
 							value={rangeValue.tablet.val}
 							onChange={(value) => {
 								setrangeValue({
@@ -234,9 +234,9 @@ export function ResponsiveRangeControl({ values, onChange, label = "", min = 0 ,
 					</div>
 				)}
 				{rangeValue.resOption == "Mobile" && (
-					<div className='atm-res-range-inner'>
+					<div className='antm-res-range-inner'>
 						<RangeControl
-						className='atm-reset'
+						className='antm-reset'
 							value={rangeValue.mobile.val}
 							onChange={(value) => {
 								setrangeValue({

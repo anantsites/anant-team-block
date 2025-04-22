@@ -6,14 +6,14 @@ const attributes = {
   image: {
     type: "string",
     source: "attribute",
-    selector: ".atm-member-img",
+    selector: ".antm-member-img",
     attribute: "src",
     default: js_data.placeholder_url
   },
   alt: {
     type: "string",
     source: "attribute",
-    selector: ".atm-member-img",
+    selector: ".antm-member-img",
     attribute: "alt",
   },
   title: { 

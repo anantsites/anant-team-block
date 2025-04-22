@@ -25,7 +25,7 @@ export function Style(props) {
         <style >
         {` ${googleFonts()}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member`,
                 type: {
                     "background": attributes.teamBoxBgColor,
                     "border": attributes.teamBoxBorderType,
@@ -36,13 +36,13 @@ export function Style(props) {
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member:hover`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member:hover`,
                 type: {
                     "background": attributes.teamBoxBgHoverColor,
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .atm-team-card-image img`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .antm-team-card-image img`,
                 type: {
                     "width": `${attributes.teamImageWidth.desktop.val}${attributes.teamImageWidth.desktop.unit}`,
                     "height": `${attributes.teamImageHeight.desktop.val}${attributes.teamImageHeight.desktop.unit}`,
@@ -52,13 +52,13 @@ export function Style(props) {
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .atm-team-card-image`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .antm-team-card-image`,
                 type: {
                     "margin": attributes.teamImageMargin.desktop,
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .heading .title`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .heading .title`,
                 type: {
                     "text-align": `${attributes.teamTitleAlignment.desktop}`,
                     "color": attributes.teamTitleColor,
@@ -67,13 +67,13 @@ export function Style(props) {
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member:hover .heading .title`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member:hover .heading .title`,
                 type: {
                     "color": attributes.teamTitleHoverColor,
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .heading .designation`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .heading .designation`,
                 type: {
                     "text-align": `${attributes.teamDesignationAlignment.desktop}`,
                     "color": attributes.teamDesignationColor,
@@ -82,19 +82,19 @@ export function Style(props) {
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member:hover .heading .designation`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member:hover .heading .designation`,
                 type: {
                     "color": attributes.teamDesignationHoverColor,
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon `,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon `,
                 type: {
                     'justify-content': attributes.teamSocialIconAlignment.desktop,
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon a `,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon a `,
                 type: {
                     'background': attributes.teamSocialIconBgColor,
                     'color': attributes.teamSocialIconColor,
@@ -107,7 +107,7 @@ export function Style(props) {
                 },
             })}
             ${CompileStyle({
-                selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon a:hover`,
+                selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon a:hover`,
                 type: {
                     'background': attributes.teamSocialIconHoverBgColor,
                     'color': attributes.teamSocialIconHoverColor,
@@ -117,7 +117,7 @@ export function Style(props) {
             })}
             @media all and (max-width: 1024px){
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member`,
                     type: {
                         "border-width": attributes.teamBoxBorderType.width.tablet,
                         "border-radius": attributes.teamBoxBorderRadius.tablet,
@@ -126,7 +126,7 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .atm-team-card-image img`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .antm-team-card-image img`,
                     type: {
                         "width": `${attributes.teamImageWidth.tablet.val}${attributes.teamImageWidth.tablet.unit}`,
                         "height": `${attributes.teamImageHeight.tablet.val}${attributes.teamImageHeight.tablet.unit}`,
@@ -135,13 +135,13 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .atm-team-card-image`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .antm-team-card-image`,
                     type: {
                         "margin": attributes.teamImageMargin.tablet,
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .heading .title`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .heading .title`,
                     type: {
                         "text-align": `${attributes.teamTitleAlignment.tablet}`,
                         "font-size": `${attributes.teamTitleTypography.fontSize.tablet.val}${attributes.teamTitleTypography.fontSize.tablet.unit}`,
@@ -152,7 +152,7 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .heading .designation`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .heading .designation`,
                     type: {
                         "text-align": `${attributes.teamDesignationAlignment.tablet}`,
                         "font-size": `${attributes.teamDesignationTypography.fontSize.tablet.val}${attributes.teamDesignationTypography.fontSize.tablet.unit}`,
@@ -163,13 +163,13 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon `,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon `,
                     type: {
                         'justify-content': attributes.teamSocialIconAlignment.tablet,
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon a `,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon a `,
                     type: {
                         'width': `${attributes.teamSocialIconWidth.tablet.val}${attributes.teamSocialIconWidth.tablet.unit}`,
                         'height': `${attributes.teamSocialIconWidth.tablet.val}${attributes.teamSocialIconWidth.tablet.unit}`,
@@ -180,7 +180,7 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon a:hover`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon a:hover`,
                     type: {
                         'border-width': attributes.teamSocialIconHoverBorderType.width.tablet,
                         'border-radius': attributes.teamSocialIconHoverBorderRadius.tablet,
@@ -189,20 +189,20 @@ export function Style(props) {
             }
             @media all and (max-width: 767px) {
                 ${CompileStyle({
-                    selector: `.wp-block .atm-block-container-${attributes.yourId}.hidden-mobile`,
+                    selector: `.wp-block .antm-block-container-${attributes.yourId}.hidden-mobile`,
                     type: {
                         "display": "block",
                         "opacity": "0.5"
                         },
                 })}
                 ${CompileStyle({
-                    selector: `.atm-block-container-${attributes.yourId}.hidden-mobile`,
+                    selector: `.antm-block-container-${attributes.yourId}.hidden-mobile`,
                     type: {
                         "display": "none",
                         },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member`,
                     type: {
                         "border-width": attributes.teamBoxBorderType.width.mobile,
                         "border-radius": attributes.teamBoxBorderRadius.mobile,
@@ -211,7 +211,7 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .atm-team-card-image img`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .antm-team-card-image img`,
                     type: {
                         "width": `${attributes.teamImageWidth.mobile.val}${attributes.teamImageWidth.mobile.unit}`,
                         "height": `${attributes.teamImageHeight.mobile.val}${attributes.teamImageHeight.mobile.unit}`,
@@ -220,13 +220,13 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .atm-team-card-image`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .antm-team-card-image`,
                     type: {
                         "margin": attributes.teamImageMargin.mobile,
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .heading .title`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .heading .title`,
                     type: {
                         "text-align": `${attributes.teamTitleAlignment.mobile}`,
                         "font-size": `${attributes.teamTitleTypography.fontSize.mobile.val}${attributes.teamTitleTypography.fontSize.mobile.unit}`,
@@ -237,7 +237,7 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .heading .designation`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .heading .designation`,
                     type: {
                         "text-align": `${attributes.teamDesignationAlignment.mobile}`,
                         "font-size": `${attributes.teamDesignationTypography.fontSize.mobile.val}${attributes.teamDesignationTypography.fontSize.mobile.unit}`,
@@ -248,13 +248,13 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon `,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon `,
                     type: {
                         'justify-content': attributes.teamSocialIconAlignment.mobile,
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon a `,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon a `,
                     type: {
                         'width': `${attributes.teamSocialIconWidth.mobile.val}${attributes.teamSocialIconWidth.mobile.unit}`,
                         'height': `${attributes.teamSocialIconWidth.mobile.val}${attributes.teamSocialIconWidth.mobile.unit}`,
@@ -265,7 +265,7 @@ export function Style(props) {
                     },
                 })}
                 ${CompileStyle({
-                    selector: `.team-member-wapper-${attributes.yourId}.atm-team-member .social-icon a:hover`,
+                    selector: `.team-member-wapper-${attributes.yourId}.antm-team-member .social-icon a:hover`,
                     type: {
                         'border-width': attributes.teamSocialIconHoverBorderType.width.mobile,
                         'border-radius': attributes.teamSocialIconHoverBorderRadius.mobile,
@@ -274,14 +274,14 @@ export function Style(props) {
             }
             @media screen and (min-width: 1024px){
                 ${CompileStyle({
-                    selector: `.wp-block .atm-block-container-${attributes.yourId}.hidden-desktop`,
+                    selector: `.wp-block .antm-block-container-${attributes.yourId}.hidden-desktop`,
                     type: {
                         "display": "block",
                         "opacity": "0.5"
                         },
                 })}
                 ${CompileStyle({
-                    selector: `.atm-block-container-${attributes.yourId}.hidden-desktop`,
+                    selector: `.antm-block-container-${attributes.yourId}.hidden-desktop`,
                     type: {
                         "display": "none",
                         },
@@ -289,14 +289,14 @@ export function Style(props) {
             }
             @media screen and (max-width: 1024px) and (min-width: 767px){
                 ${CompileStyle({
-                    selector: `.wp-block .atm-block-container-${attributes.yourId}.hidden-tablet`,
+                    selector: `.wp-block .antm-block-container-${attributes.yourId}.hidden-tablet`,
                     type: {
                         "display": "block",
                         "opacity": "0.5"
                         },
                 })}
                 ${CompileStyle({
-                    selector: `.atm-block-container-${attributes.yourId}.hidden-tablet`,
+                    selector: `.antm-block-container-${attributes.yourId}.hidden-tablet`,
                     type: {
                         "display": "none",
                         },

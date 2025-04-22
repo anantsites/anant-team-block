@@ -36,8 +36,8 @@ export function BoxShadowControl({ shadow, onChange }) {
 	return (
 		<div className="box-shadow-control">
 			<div className="control-label-wrapper">
-			<div className='atm-shadow-controls'>
-				<label for="atm-shadow-control-label" className='atm-shadow-label'>{__("Box Shadow", "anant-team-member")}</label>
+			<div className='antm-shadow-controls'>
+				<label for="antm-shadow-control-label" className='antm-shadow-label'>{__("Box Shadow", "anant-team-member")}</label>
 				<div className="button-wrapper">
 					{shadowValue.enable && (
 						<Button
@@ -52,12 +52,12 @@ export function BoxShadowControl({ shadow, onChange }) {
 								setPopoverOpen(false);
 							}}
 						>
-							<Dashicon className='atm-reset' icon="image-rotate" />
+							<Dashicon className='antm-reset' icon="image-rotate" />
 						</Button>
 					)}
 
 					<Button
-					className='atm-edit-toggle'
+					className='antm-edit-toggle'
 						onClick={() => {
 							onChange({ ...shadowValue, enable: true });
 							setShadowValue({ ...shadowValue, enable: true });
@@ -66,7 +66,7 @@ export function BoxShadowControl({ shadow, onChange }) {
 						isPressed={popoverOpen === true}
 						variant="secondary"
 					>
-						<Dashicon className='atm-open-edit' icon="edit" />
+						<Dashicon className='antm-open-edit' icon="edit" />
 					</Button>
 				</div>
 			</div>
@@ -88,7 +88,7 @@ export function BoxShadowControl({ shadow, onChange }) {
 								label="Color"
 							/>
 							<RangeControl
-								className='atm-range-label'
+								className='antm-range-label'
 								label={__('Horizontal', 'anant-team-member')}
 								value={shadowValue.horizontal}
 								onChange={(value) => {
@@ -105,7 +105,7 @@ export function BoxShadowControl({ shadow, onChange }) {
 								max={100}
 							/>
 							<RangeControl
-								className='atm-range-label'
+								className='antm-range-label'
 								label={__('Vertical', 'anant-team-member')}
 								value={shadowValue.vertical}
 								onChange={(value) => {
@@ -122,7 +122,7 @@ export function BoxShadowControl({ shadow, onChange }) {
 								max={100}
 							/>
 							<RangeControl
-								className='atm-range-label'
+								className='antm-range-label'
 								value={shadowValue.blur}
 								onChange={(value) => {
 									setShadowValue({
@@ -139,7 +139,7 @@ export function BoxShadowControl({ shadow, onChange }) {
 								max={100}
 							/>
 							<RangeControl
-								className='atm-range-label'
+								className='antm-range-label'
 								value={shadowValue.spread}
 								onChange={(value) => {
 									setShadowValue({
@@ -155,8 +155,8 @@ export function BoxShadowControl({ shadow, onChange }) {
 								min={0}
 								max={100}
 							/>
-							<div className='atm-shadow-position'>
-								<label for="atm-shadow-position-label" className='atm-shadow-position-label'>{__("Position", "anant-team-member")}</label>
+							<div className='antm-shadow-position'>
+								<label for="antm-shadow-position-label" className='antm-shadow-position-label'>{__("Position", "anant-team-member")}</label>
 									<SelectControl
 										options={ [
 											{ label: 'Outline', value: '' },

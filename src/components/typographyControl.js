@@ -1586,8 +1586,8 @@ export function TypographyControl({ typography, onChange, label = "" },props) {
 
 		<div className="typography-control">
 			<div className="control-label-wrapper">
-			<div className='atm-typography-controls'>
-				<label for="atm-typography-control-label" className='atm-typography-label'>{__(label, "anant-team-member")}</label>
+			<div className='antm-typography-controls'>
+				<label for="antm-typography-control-label" className='antm-typography-label'>{__(label, "anant-team-member")}</label>
 				<div className="button-wrapper">
 					{typographyValue.enable && (
 						<Button
@@ -1602,11 +1602,11 @@ export function TypographyControl({ typography, onChange, label = "" },props) {
 								setPopoverOpen(false);
 							}}
 						>
-							<Dashicon className='atm-reset' icon="image-rotate" />
+							<Dashicon className='antm-reset' icon="image-rotate" />
 						</Button>
 					)}
 					<Button
-					className='atm-edit-toggle'
+					className='antm-edit-toggle'
 						onClick={() => {
 							onChange({ ...typographyValue, enable: true });
 							setTypographyValue({ ...typographyValue, enable: true });
@@ -1615,14 +1615,14 @@ export function TypographyControl({ typography, onChange, label = "" },props) {
 						isPressed={popoverOpen === true}
 						variant="secondary"
 					>
-						<Dashicon className='atm-open-edit' icon="edit" />
+						<Dashicon className='antm-open-edit' icon="edit" />
 					</Button>
 				</div>
 			</div>
 				{popoverOpen && (
 					<Popover>
 						<div className="typography-controls-wrapper" id='typography-id'>
-						<BaseControl label={__('Font Family')} className="atm-control-label atm-font-family-picker">
+						<BaseControl label={__('Font Family')} className="antm-control-label antm-font-family-picker">
 						<ReactSelect 
 						className='typography-title-control'
 								value={ typographyValue.fontFamily }
@@ -1646,7 +1646,7 @@ export function TypographyControl({ typography, onChange, label = "" },props) {
 							/>
 						</BaseControl>
 						<SelectControl
-						className="atm-control-label"
+						className="antm-control-label"
 							label="Font Weight"
 							value={ typographyValue.fontWeight }
 							options={ [
@@ -1678,7 +1678,7 @@ export function TypographyControl({ typography, onChange, label = "" },props) {
 							}
 						/>
 						<SelectControl
-						className="atm-control-label"
+						className="antm-control-label"
 							label="Font Style"
 							value={ typographyValue.fontStyle }
 							options={ [
@@ -1704,7 +1704,7 @@ export function TypographyControl({ typography, onChange, label = "" },props) {
 							}
 						/>
 						<SelectControl
-						className="atm-control-label"
+						className="antm-control-label"
 							label="Text Transform"
 							value={ typographyValue.fontTransform }
 							options={ [
@@ -1731,7 +1731,7 @@ export function TypographyControl({ typography, onChange, label = "" },props) {
 							}
 						/>
 						<SelectControl
-						className="atm-control-label"
+						className="antm-control-label"
 							label="Text Decoration"
 							value={ typographyValue.fontDecoration }
 							options={ [

@@ -2,9 +2,9 @@
 Contributors: anantsites
 Tags: gutenberg, block, blocks, team member, gutenberg blocks
 Requires at least: 5.6
-Requires PHP: 5.3
-Tested up to: 6.7.1
-Stable tag: 0.0.1
+Requires PHP: 8.2
+Tested up to: 6.8
+Stable tag: 0.0.2
 License: GPLv3 or later
 License URI: https://opensource.org/licenses/GPL-3.0
 
@@ -92,3 +92,7 @@ Not! is a comprehensive WordPress page builder. With a simple click, drag, and d
 = Do you offer Support? =
 
 Yes, We provide Free Support via [WordPress Support Forum].
+
+== Changelog ==	
+= 0.0.2 =
+* fixed Review Issue.

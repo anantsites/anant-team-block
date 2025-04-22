@@ -21,12 +21,12 @@ export function IconRepeater(props) {
         return(
             value.sort((a, b) => a.index - b.index).map(infoItem => {
                 return(
-                    <div className="atm-icon-picker">
+                    <div className="antm-icon-picker">
                         <PanelBody
                             title={__(`${infoItem.title}`, "anant-team-member")}
                             opened={activePanel === `${infoItem.index}`} onToggle={() => togglePanel(`${infoItem.index}`)}
                         >
-                            <BaseControl label="Title" className="atm-control-label">
+                            <BaseControl label="Title" className="antm-control-label">
                                 <TextControl
                                     value={ infoItem.title }
                                     onChange={ title => {
@@ -41,7 +41,7 @@ export function IconRepeater(props) {
                                     } } 
                                 />
                             </BaseControl>
-                        <BaseControl label="Social Icon" className="atm-control-label atm-icon-picker">
+                        <BaseControl label="Social Icon" className="antm-control-label antm-icon-picker">
                             <FontIconPicker 
                                 icons={ icons }
                                 value={ infoItem.clsName } 
@@ -57,7 +57,7 @@ export function IconRepeater(props) {
                                     } }
                             />
                         </BaseControl>
-                        <BaseControl label="Link" className="atm-control-label">
+                        <BaseControl label="Link" className="antm-control-label">
                             <TextControl
                                 value={ infoItem.link }
                                 placeholder="https://your-link.com"
@@ -74,7 +74,7 @@ export function IconRepeater(props) {
                             />
                         </BaseControl>
                         <ToggleControl
-                            className="atm-control-label"
+                            className="antm-control-label"
                             label={__("Open In New Tab", "anant-team-member")}
                             onChange={ checkNewTab => {
                                 const newObject = Object.assign({}, infoItem, {
@@ -112,7 +112,7 @@ export function IconRepeater(props) {
     return (
         <Fragment>
             {infoList(info)}
-            <Button className="atm-add-icons" onClick={ titleone => {
+            <Button className="antm-add-icons" onClick={ titleone => {
                 setAttributes({
                     info: [...info, {
                         index: info.length,

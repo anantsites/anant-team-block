@@ -1,6 +1,6 @@
 {
     "name": "anant-team-member",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "We have provided Post templates that work with all WordPress themes.",
     "main": "index.js",
     "scripts": {

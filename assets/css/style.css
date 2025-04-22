@@ -22,205 +22,205 @@ p{
 img, svg {
   vertical-align: middle;
 }
-.toplevel_page_atm-demo-import .wp-menu-image img {
+.toplevel_page_antm-demo-import .wp-menu-image img {
   width: 22px;
   margin-top: -9%;
 }
 /* -----Control Css-- */
-.atm-d-flex{
+.antm-d-flex{
   display: flex;
 } 
-.atm-space-between{
+.antm-space-between{
 justify-content: space-between;
 }
-.atm-align-center{
+.antm-align-center{
   align-items: center;
 }
-.block-editor-block-inspector .atm-tab-controls .components-toggle-control {
+.block-editor-block-inspector .antm-tab-controls .components-toggle-control {
   margin-bottom: 20px;
 }
-.block-editor-block-inspector .atm-tab-controls .components-toggle-control:last-child{
+.block-editor-block-inspector .antm-tab-controls .components-toggle-control:last-child{
   margin-bottom: 0px;
 }
-.atm-tab-controls .components-toggle-control .components-flex {
+.antm-tab-controls .components-toggle-control .components-flex {
   flex-direction: row-reverse;
   justify-content: space-between;
 }
-.atm-tab-controls .components-base-control.components-range-control,
-.atm-tab-controls .components-base-control.atm-range{
+.antm-tab-controls .components-base-control.components-range-control,
+.antm-tab-controls .components-base-control.antm-range{
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.atm-res-range-control > .components-base-control__field > .components-base-control__label {
+.antm-res-range-control > .components-base-control__field > .components-base-control__label {
   margin-right: 100px;
 }
-.atm-tab-controls.style .components-button:focus:not(:disabled){
+.antm-tab-controls.style .components-button:focus:not(:disabled){
   box-shadow: none;
 }
 .components-button-group .components-button{
   box-shadow: none;
 }
-.atm-panel-control .atm-tab-panel .components-panel__body.is-opened, 
-.atm-panel-control .atm-tab-panel .components-panel__body .components-panel__body-title:hover {
+.antm-panel-control .antm-tab-panel .components-panel__body.is-opened, 
+.antm-panel-control .antm-tab-panel .components-panel__body .components-panel__body-title:hover {
   background: #f8f5ff;
 }
-.atm-panel-control .atm-tab-panel .components-panel__body{
+.antm-panel-control .antm-tab-panel .components-panel__body{
   margin-top: 0;
   border-top: 0;
   border-bottom: 1px solid #e4d9ff;
 }
-.atm-panel-control .atm-tab-panel .components-panel__body-title{
+.antm-panel-control .antm-tab-panel .components-panel__body-title{
   box-shadow: 0 1px 0 #e4d9ff;
 }
-.atm-panel-control .atm-tab-panel .components-panel__body-title .components-panel__body-toggle.components-button:focus{
+.antm-panel-control .antm-tab-panel .components-panel__body-title .components-panel__body-toggle.components-button:focus{
   box-shadow: none;
 }
-.atm-panel-control .atm-tab-panel .components-panel__body.is-opened>.components-panel__body-title{
+.antm-panel-control .antm-tab-panel .components-panel__body.is-opened>.components-panel__body-title{
   margin-bottom: 15px;
 }
-.atm-panel-control .atm-tab-panel .components-panel__body-title button.components-button{
+.antm-panel-control .antm-tab-panel .components-panel__body-title button.components-button{
   color: #5d6c83 !important;
   font-size: 14px !important;
   font-weight: 500 !important;
 }
-.atm-panel-control .atm-tab-panel .components-panel__body-title button.components-button i{
+.antm-panel-control .antm-tab-panel .components-panel__body-title button.components-button i{
   margin-right: 8px !important;
   font-size: 14px !important;
 }
-.atm-panel-control .atm-tab-panel .atm-pro-notice-body .components-panel__body-title button.components-button{
+.antm-panel-control .antm-tab-panel .antm-pro-notice-body .components-panel__body-title button.components-button{
   color: #5E24EF !important;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .components-panel__body-title{
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .components-panel__body-title{
   background: transparent;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .components-panel__body{
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .components-panel__body{
   border: 1px solid #e0e0e0;
   background: #fff;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .remove-item{
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .remove-item{
   margin: 8px 0 8px 0;
   color: #e12211;
   text-decoration: none;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .rfipbtn--default{
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .rfipbtn--default{
   border: 1px solid #e4d9ff;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .rfipbtn--default:active, .atm-panel-control .atm-tab-panel  .atm-icon-picker .rfipbtn--default:focus {
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .rfipbtn--default:active, .antm-panel-control .antm-tab-panel  .antm-icon-picker .rfipbtn--default:focus {
   box-shadow: none;
   -webkit-box-shadow: none;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .rfipbtn--default .rfipbtn__button{
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .rfipbtn--default .rfipbtn__button{
   border: 0 none transparent;
   border-left: 1px solid #e4d9ff;
   background-color: #f8f5ff;
   color: #424242;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .rfipbtn--default .rfipbtn__button:hover{
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .rfipbtn--default .rfipbtn__button:hover{
   background-color: #ffffff;
 }
-.atm-panel-control .atm-tab-panel  .atm-icon-picker .rfipdropdown--default{
+.antm-panel-control .antm-tab-panel  .antm-icon-picker .rfipdropdown--default{
   -webkit-box-shadow: 0 6px 13px rgb(0 0 0 / 8%), 0 10px 20px rgb(0 0 0 / 3%);
   box-shadow: 0 6px 13px rgb(0 0 0 / 8%), 0 10px 20px rgb(0 0 0 / 3%);
   border-radius: 3px;
 }
-.atm-panel-control .atm-tab-panel .components-range-control__track, 
+.antm-panel-control .antm-tab-panel .components-range-control__track, 
 .box-shadow-controls-wrapper .components-range-control__track, 
 .typography-controls-wrapper .components-range-control__track {
   background-color: #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .components-range-control__track+span>span, 
+.antm-panel-control .antm-tab-panel .components-range-control__track+span>span, 
 .box-shadow-controls-wrapper .components-range-control__track+span>span, 
 .typography-controls-wrapper .components-range-control__track+span>span {
   background-color: #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .components-text-control__input, .atm-panel-control .atm-tab-panel .components-textarea-control__input, .atm-panel-control .atm-tab-panel .components-input-control__container .components-input-control__backdrop, 
+.antm-panel-control .antm-tab-panel .components-text-control__input, .antm-panel-control .antm-tab-panel .components-textarea-control__input, .antm-panel-control .antm-tab-panel .components-input-control__container .components-input-control__backdrop, 
 .box-shadow-controls-wrapper .components-input-control__container .components-input-control__backdrop, 
 .typography-controls-wrapper .components-input-control__container .components-input-control__backdrop {
   border: 1px solid #e2e8f0 !important;
 }
-.atm-panel-control .atm-tab-panel input[type=checkbox]:focus {
+.antm-panel-control .antm-tab-panel input[type=checkbox]:focus {
   box-shadow: none;
 }
-.atm-panel-control .atm-tab-panel .components-form-toggle .components-form-toggle__track{
+.antm-panel-control .antm-tab-panel .components-form-toggle .components-form-toggle__track{
   box-shadow: none;
   border: 1px solid #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .components-form-toggle .components-form-toggle__thumb{
+.antm-panel-control .antm-tab-panel .components-form-toggle .components-form-toggle__thumb{
   background-color: #5E24EF;
   border: 5px solid #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .components-form-toggle.is-checked .components-form-toggle__track{
+.antm-panel-control .antm-tab-panel .components-form-toggle.is-checked .components-form-toggle__track{
   background-color: #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .components-form-toggle.is-checked .components-form-toggle__thumb {
+.antm-panel-control .antm-tab-panel .components-form-toggle.is-checked .components-form-toggle__thumb {
   background-color: #ffffff;
   border: 5px solid #ffffff;
 }
-.atm-panel-control .atm-pro-notice{
+.antm-panel-control .antm-pro-notice{
   padding: 20px 0 10px 0;
   text-align: center;
   color: #000000 !important;
   font-weight: 500 !important;
 }
-.atm-panel-control .atm-pro-features{
+.antm-panel-control .antm-pro-features{
   color: #5d6c83 !important;
   font-weight: 500 !important;
 }
-.atm-panel-control .atm-pro-notice a{
+.antm-panel-control .antm-pro-notice a{
   color: #5E24EF;
 }
-.atm-panel-control .atm-pro-features a{
+.antm-panel-control .antm-pro-features a{
   color: #5E24EF;
   text-decoration: underline;
 }
-.atm-panel-control .atm-pro-notice a:hover, .atm-panel-control .atm-pro-features a:hover{
+.antm-panel-control .antm-pro-notice a:hover, .antm-panel-control .antm-pro-features a:hover{
   color: #e12211;
 }
 span.dashicons-external:before{
   color: #1e1e1e;
 }
 /* Responsive Alignment Control  */
-.atm-panel-control .atm-tab-panel .atm-res-choose-controls, .atm-res-choose-controls {
+.antm-panel-control .antm-tab-panel .antm-res-choose-controls, .antm-res-choose-controls {
   margin-bottom: 10px;
 }
-.block-editor-block-inspector .atm-res-choose-control .components-toggle-group-control div {
+.block-editor-block-inspector .antm-res-choose-control .components-toggle-group-control div {
   justify-content: center;
 }
-.atm-panel-control .atm-tab-panel .atm-res-choose-toggle-container .components-toggle-group-control:focus-within, .atm-res-choose-toggle-container .components-toggle-group-control:focus-within{
+.antm-panel-control .antm-tab-panel .antm-res-choose-toggle-container .components-toggle-group-control:focus-within, .antm-res-choose-toggle-container .components-toggle-group-control:focus-within{
   box-shadow: none;
   border: 1px solid #aab6c9;
 }
-.atm-panel-control .atm-tab-panel .atm-res-choose-toggle-container .components-toggle-group-control:hover,  .atm-res-choose-toggle-container .components-toggle-group-control:hover{
+.antm-panel-control .antm-tab-panel .antm-res-choose-toggle-container .components-toggle-group-control:hover,  .antm-res-choose-toggle-container .components-toggle-group-control:hover{
   border: 1px solid #aab6c9;
 }
-.atm-panel-control .atm-tab-panel .atm-res-choose-toggle-container .components-toggle-group-control, .atm-res-choose-toggle-container .components-toggle-group-control{
+.antm-panel-control .antm-tab-panel .antm-res-choose-toggle-container .components-toggle-group-control, .antm-res-choose-toggle-container .components-toggle-group-control{
   background-color: #f8f5ff;
   border: 1px solid #aab6c9;
   border-radius: 3px;
 }
-.atm-panel-control .atm-tab-panel .atm-res-choose-toggle-container .components-toggle-group-control-option-base, .atm-res-choose-toggle-container .components-toggle-group-control-option-base{
+.antm-panel-control .antm-tab-panel .antm-res-choose-toggle-container .components-toggle-group-control-option-base, .antm-res-choose-toggle-container .components-toggle-group-control-option-base{
   color: #5d6c83;
   font-weight: 500;
 }
-.atm-panel-control .atm-tab-panel .atm-res-choose-toggle-container .components-toggle-group-control-option-base[aria-checked="true"], .atm-res-choose-toggle-container .components-toggle-group-control-option-base[aria-checked="true"]{
+.antm-panel-control .antm-tab-panel .antm-res-choose-toggle-container .components-toggle-group-control-option-base[aria-checked="true"], .antm-res-choose-toggle-container .components-toggle-group-control-option-base[aria-checked="true"]{
   color: #fff;
 }
-.atm-panel-control .atm-tab-panel .atm-res-choose-toggle-container div[role="presentation"], .atm-res-choose-toggle-container div[role="presentation"]{
+.antm-panel-control .antm-tab-panel .antm-res-choose-toggle-container div[role="presentation"], .antm-res-choose-toggle-container div[role="presentation"]{
   background-color: #5E24EF;
   border-radius: 3px;
 }
-.atm-panel-control .atm-tab-panel .atm-tab{
+.antm-panel-control .antm-tab-panel .antm-tab{
   color: #1A0E37;
 }
-.atm-panel-control .atm-tab-panel .atm-tab.active-tab{
+.antm-panel-control .antm-tab-panel .antm-tab.active-tab{
   background-color: #efe8ff;
   color: #5E24EF;
   border-bottom: 3px solid #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .atm-tab:hover{
+.antm-panel-control .antm-tab-panel .antm-tab:hover{
   color: #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .atm-tab{
+.antm-panel-control .antm-tab-panel .antm-tab{
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
   font-size: 14px;
@@ -233,32 +233,32 @@ span.dashicons-external:before{
   height: 40px;
   justify-content: center;
 }
-.atm-panel-control .atm-tab-panel .atm-button:first-child{
+.antm-panel-control .antm-tab-panel .antm-button:first-child{
   border-bottom-left-radius: 5px !important;
   border-top-left-radius: 5px !important;
   border-radius: 2px 0 0 2px;
 }
-.atm-panel-control .atm-tab-panel .atm-button:last-child{
+.antm-panel-control .antm-tab-panel .antm-button:last-child{
   border-bottom-right-radius: 5px !important;
   border-top-right-radius: 5px !important;
   border-radius: 0 2px 2px 0;
 }
-.atm-panel-control .atm-tab-panel .atm-button:hover{
+.antm-panel-control .antm-tab-panel .antm-button:hover{
   background-color: #5E24EF;
   border: 1px solid #5E24EF;
   color: #fff;
 }
-.atm-panel-control .atm-tab-panel .atm-button.tab-active{
+.antm-panel-control .antm-tab-panel .antm-button.tab-active{
   background-color: #5E24EF;
   border: 1px solid #5E24EF;
   color: #fff;
 }
-.atm-panel-control .atm-tab-panel .atm-button{
+.antm-panel-control .antm-tab-panel .antm-button{
   background: #ffffff;
   border: 1px solid #5E24EF;
   color: #5E24EF;
 }
-.atm-panel-control .atm-tab-panel .atm-button{
+.antm-panel-control .antm-tab-panel .antm-button{
   flex: 1;
   display: flex;
   align-items: center;
@@ -267,32 +267,32 @@ span.dashicons-external:before{
   padding-bottom: 6px;
   height: 34px;
 }
-.atm-tab-controls.normal, .atm-tab-controls.hover, .atm-tab-controls.active {
+.antm-tab-controls.normal, .antm-tab-controls.hover, .antm-tab-controls.active {
   padding-top: 16px;
 }
-.atm-tab-controls.contained, .atm-tab-controls.full-width {
+.antm-tab-controls.contained, .antm-tab-controls.full-width {
   padding-top: 25px;
 }
-.atm-tab-controls hr{
+.antm-tab-controls hr{
   border-bottom: 1px solid #e4d9ff;
 }
-.atm-panel-control .atm-tab-panel .atm-tab:focus{
+.antm-panel-control .antm-tab-panel .antm-tab:focus{
   box-shadow: unset;
 }
-.atm-panel-control .atm-tab-panel .atm-tab:not(:first-child){
+.antm-panel-control .antm-tab-panel .antm-tab:not(:first-child){
   border-left: 1px solid #fff;
 }
-button.atm_image_upload_btn:focus {
+button.antm_image_upload_btn:focus {
   box-shadow: unset !important;
 }
-button.atm_image_upload_btn {
+button.antm_image_upload_btn {
   background-color: #e5e3e345;
   color: #5E24EF;
   height: 100px;
   width: 100%;
   justify-content: center;
 }
-.atm-panel-control .atm-tab-panel .image-avatar {
+.antm-panel-control .antm-tab-panel .image-avatar {
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
@@ -300,7 +300,7 @@ button.atm_image_upload_btn {
   padding: 2px;
   width: 100%;
 }
-.atm-panel-control .atm-tab-panel .image-avatar .image-remove {
+.antm-panel-control .antm-tab-panel .image-avatar .image-remove {
   color: #e12211;
   position: absolute;
   font-size: 20px;
@@ -315,11 +315,11 @@ button.atm_image_upload_btn {
   justify-content: center;
   align-items: center;
 }
-.atm-panel-control .atm-tab-panel .atm-icon-picker .image-avatar .image-remove {
+.antm-panel-control .antm-tab-panel .antm-icon-picker .image-avatar .image-remove {
   right: 38px;
   margin-top: 4px;
 }
-.atm-panel-control .atm-tab-panel button.components-button.atm-add-icons{
+.antm-panel-control .antm-tab-panel button.components-button.antm-add-icons{
   margin-top: 10px;
   background: #e0e0e0;
   color: #212121;
@@ -329,10 +329,10 @@ button.atm_image_upload_btn {
   align-items: center;
   margin: auto;
 }
-.atm-panel-control .atm-tab-panel .components-base-control.atm-font-family-picker input {
+.antm-panel-control .antm-tab-panel .components-base-control.antm-font-family-picker input {
   box-shadow: unset;
 }
-.atm-panel-control .atmResButton, .atmResButton{
+.antm-panel-control .antmResButton, .antmResButton{
   background-color: transparent;
   color: #5d6c83;
   border-radius: 3px;
@@ -348,115 +348,115 @@ button.atm_image_upload_btn {
   justify-content: center;
   z-index: 999;
 }
-.atm-panel-control .atmResButton.active, .atmResButton.active {
+.antm-panel-control .antmResButton.active, .antmResButton.active {
   color: #5E24EF;
   background-color: #e2d6fb;
 }
-.atm-panel-control .atm-tab-panel .atm-unit-control.components-unit-control, .atm-unit-control.components-unit-control{
+.antm-panel-control .antm-tab-panel .antm-unit-control.components-unit-control, .antm-unit-control.components-unit-control{
   align-items: flex-end;
 }
-.atm-panel-control .atm-tab-panel .atm-unit-control.components-unit-control .components-input-control__container, .atm-unit-control.components-unit-control .components-input-control__container {
+.antm-panel-control .antm-tab-panel .antm-unit-control.components-unit-control .components-input-control__container, .antm-unit-control.components-unit-control .components-input-control__container {
   width: 65%;
 }
-.atm-panel-control .atm-tab-panel .atm-base-control.components-base-control .components-base-control__field, .atm-base-control.components-base-control .components-base-control__field {
+.antm-panel-control .antm-tab-panel .antm-base-control.components-base-control .components-base-control__field, .antm-base-control.components-base-control .components-base-control__field {
   display: flex;
   align-items: center;
 }
-.atm-panel-control .atm-tab-panel .components-tools-panel.atm-color-style, .components-tools-panel.atm-color-style{
+.antm-panel-control .antm-tab-panel .components-tools-panel.antm-color-style, .components-tools-panel.antm-color-style{
   border: none;
   padding: 0px;
 }
-.atm-panel-control .atm-tab-panel .components-tools-panel.atm-color-style button.components-button, .components-tools-panel.atm-color-style button.components-button{
+.antm-panel-control .antm-tab-panel .components-tools-panel.antm-color-style button.components-button, .components-tools-panel.antm-color-style button.components-button{
   padding: 8px;
   width: 36px;
   height: 36px;
 }
-.atm-panel-control .atm-tab-panel .atm-color-style .block-editor-tools-panel-color-gradient-settings__item.first, .atm-color-style .block-editor-tools-panel-color-gradient-settings__item.first{
+.antm-panel-control .antm-tab-panel .antm-color-style .block-editor-tools-panel-color-gradient-settings__item.first, .antm-color-style .block-editor-tools-panel-color-gradient-settings__item.first{
   margin-top: 0;
 }
-.atm-tab-controls .rfip{
+.antm-tab-controls .rfip{
   margin: 0;
 }
-.atm-tab-controls .rfipdropdown--default.rfipdropdown {
+.antm-tab-controls .rfipdropdown--default.rfipdropdown {
   width: 248px !important;
 }
-.atm-tab-controls .rfip .rfipdropdown {
+.antm-tab-controls .rfip .rfipdropdown {
   position: relative;
   left: -15px !important;
 }
-.atm-tab-controls .components-base-control.atm-icon-picker .components-base-control__label{
+.antm-tab-controls .components-base-control.antm-icon-picker .components-base-control__label{
   display: block;
 }
-.atm-res-dimension.components-base-control, 
-.atm-border-control.components-base-control, 
-.atm-res-range-control.components-base-control {
+.antm-res-dimension.components-base-control, 
+.antm-border-control.components-base-control, 
+.antm-res-range-control.components-base-control {
   margin-bottom: 20px !important;
 }
-.atm-res-dimension-label-n-unit, 
-.atm-border-main-label,
-.atm-color-controls, 
-.atm-shadow-controls, 
-.atm-typography-controls, 
-.atm-res-range-controls, 
-.atm-range-controls, 
-.atm-color-type, 
-.atm-select-control, 
-.atm-res-choose-controls {
+.antm-res-dimension-label-n-unit, 
+.antm-border-main-label,
+.antm-color-controls, 
+.antm-shadow-controls, 
+.antm-typography-controls, 
+.antm-res-range-controls, 
+.antm-range-controls, 
+.antm-color-type, 
+.antm-select-control, 
+.antm-res-choose-controls {
   display: flex;
   gap: 8px;
   align-items: center;
 }
-.atm-control-label .components-base-control__label, .atm-control-label .components-input-control__label, .atm-res-dimension-label, .atm-res-range-label, .atm-res-choose-label, .atm-range-label, .atm-border-label, .atm-shadow-position-label, .atm-color-label, 
-.atm-shadow-label, .atm-color-type-label, .atm-select-control-label, .atm-typography-label, .atm-range-label .components-base-control__label, 
-.atm-control-label .components-toggle-control__label{
+.antm-control-label .components-base-control__label, .antm-control-label .components-input-control__label, .antm-res-dimension-label, .antm-res-range-label, .antm-res-choose-label, .antm-range-label, .antm-border-label, .antm-shadow-position-label, .antm-color-label, 
+.antm-shadow-label, .antm-color-type-label, .antm-select-control-label, .antm-typography-label, .antm-range-label .components-base-control__label, 
+.antm-control-label .components-toggle-control__label{
   color: #5d6c83 !important;
   font-size: 13px !important;
   font-weight: 500 !important;
   text-transform: capitalize !important;
 }
-.atm-control-label.heading .components-base-control__label {
+.antm-control-label.heading .components-base-control__label {
   font-weight: 600 !important;
   font-size: 14px !important;
 }
-.atm-control-label .components-select-control__input{
+.antm-control-label .components-select-control__input{
   font-weight: 400 !important;
 }
-.atm-dimension-inner {
+.antm-dimension-inner {
   display: flex;
   gap: 2px;
   padding-top: 10px;
 }
-.atm-res-range-inner, .atm-range-inner {
+.antm-res-range-inner, .antm-range-inner {
   padding-top: 10px;
 }
-.atm-dimension-inner .components-base-control .components-base-control__field .components-flex{
+.antm-dimension-inner .components-base-control .components-base-control__field .components-flex{
   gap: inherit;
 }
-.atm-dimension-inner .components-base-control .components-base-control__field .components-flex .components-flex-item{
+.antm-dimension-inner .components-base-control .components-base-control__field .components-flex .components-flex-item{
   align-self: center;
   max-width: 100%;
 }
-.atm-dimension-inner label.components-input-control__label{
+.antm-dimension-inner label.components-input-control__label{
   color: #5d6c83;
   text-transform: capitalize !important;
 }
-.atm-dimension-inner button.components-button{
+.antm-dimension-inner button.components-button{
     background: transparent; 
     color: #5d6c83;
     border-color: rgba(0,0,0,0);
     background: none;
     cursor: pointer;
 }
-.atm-dimension-inner button.components-button i{
+.antm-dimension-inner button.components-button i{
   height: 18px;
 }
-.atm-units-container{
+.antm-units-container{
   margin-left: auto;
 }
-.atm-units-hide .atm-units-container {
+.antm-units-hide .antm-units-container {
   display: none;
 }
-.atm-panel-control .atm-units-dropdown .atm-units-button, .atm-units-dropdown .atm-units-button{
+.antm-panel-control .antm-units-dropdown .antm-units-button, .antm-units-dropdown .antm-units-button{
   align-items: center;
   display: flex;
   justify-content: center;
@@ -469,18 +469,18 @@ button.atm_image_upload_btn {
   background: #e2d6fb;
   color: #5E24EF;
 }
-.atm-units-dropdown button.components-button.atm-units-button:hover{
+.antm-units-dropdown button.components-button.antm-units-button:hover{
   background: #e2d6fb;
   color: #5E24EF;
   border: none;
 }
-.atm-dropdown-unit-items .components-popover__content{
+.antm-dropdown-unit-items .components-popover__content{
   padding: 0;
   box-shadow: 0 0 7px 0px rgb(0 0 0 / 12%);
   border-radius: 3px;
   border: 1px solid #e2e8f0;
 }
-.atm-dropdown-unit-items .components-popover__content button.atm-units-menus{
+.antm-dropdown-unit-items .components-popover__content button.antm-units-menus{
   align-items: center;
   display: flex;
   justify-content: center;
@@ -496,41 +496,41 @@ button.atm_image_upload_btn {
   background: #ffffff;
   color: #5d6c83;
 }
-.atm-panel-control .atm-tab-panel .atm-dimension-inner button.components-button:hover, .atm-dimension-inner button.components-button:hover, 
-.atm-panel-control .atm-tab-panel .atm-dimension-inner button.components-button:hover:not(:disabled), .atm-dimension-inner button.components-button:hover:not(:disabled){
+.antm-panel-control .antm-tab-panel .antm-dimension-inner button.components-button:hover, .antm-dimension-inner button.components-button:hover, 
+.antm-panel-control .antm-tab-panel .antm-dimension-inner button.components-button:hover:not(:disabled), .antm-dimension-inner button.components-button:hover:not(:disabled){
   background: transparent; 
   background: none;
   color: #5d6c83;
   border-color: rgba(0,0,0,0);
 }
-.atm-panel-control .atm-tab-panel .atm-dimension-inner .components-base-control.components-input-control, .atm-dimension-inner .components-base-control.components-input-control, 
-.atm-panel-control .atm-tab-panel .atm-border-main-label .components-base-control,
-.atm-panel-control .atm-tab-panel .atm-border-main-label .components-base-control .components-base-control__field, 
-.atm-shadow-position .components-base-control,
-.atm-shadow-position .components-base-control .components-base-control__field, 
-.atm-panel-control .atm-tab-panel .atm-color-type .components-base-control, .atm-color-type .components-base-control, 
-.atm-panel-control .atm-tab-panel .atm-color-type .components-base-control .components-base-control__field, .atm-color-type .components-base-control .components-base-control__field, 
-.atm-panel-control .atm-tab-panel .atm-select-control .components-base-control, .atm-select-control .components-base-control, 
-.atm-panel-control .atm-tab-panel .atm-select-control .components-base-control .components-base-control__field, .atm-select-control .components-base-control .components-base-control__field {
+.antm-panel-control .antm-tab-panel .antm-dimension-inner .components-base-control.components-input-control, .antm-dimension-inner .components-base-control.components-input-control, 
+.antm-panel-control .antm-tab-panel .antm-border-main-label .components-base-control,
+.antm-panel-control .antm-tab-panel .antm-border-main-label .components-base-control .components-base-control__field, 
+.antm-shadow-position .components-base-control,
+.antm-shadow-position .components-base-control .components-base-control__field, 
+.antm-panel-control .antm-tab-panel .antm-color-type .components-base-control, .antm-color-type .components-base-control, 
+.antm-panel-control .antm-tab-panel .antm-color-type .components-base-control .components-base-control__field, .antm-color-type .components-base-control .components-base-control__field, 
+.antm-panel-control .antm-tab-panel .antm-select-control .components-base-control, .antm-select-control .components-base-control, 
+.antm-panel-control .antm-tab-panel .antm-select-control .components-base-control .components-base-control__field, .antm-select-control .components-base-control .components-base-control__field {
   margin-bottom: 0 !important;
 }
-.atm-panel-control .atm-tab-panel .atm-border-main-label .components-base-control, 
-.atm-shadow-position .components-base-control, 
-.atm-panel-control .atm-tab-panel .atm-color-type .components-base-control, .atm-color-type .components-base-control, 
-.atm-panel-control .atm-tab-panel .atm-select-control .components-base-control, .atm-select-control .components-base-control {
+.antm-panel-control .antm-tab-panel .antm-border-main-label .components-base-control, 
+.antm-shadow-position .components-base-control, 
+.antm-panel-control .antm-tab-panel .antm-color-type .components-base-control, .antm-color-type .components-base-control, 
+.antm-panel-control .antm-tab-panel .antm-select-control .components-base-control, .antm-select-control .components-base-control {
   width: 120px;
 }
-.atm-panel-control .atm-tab-panel .atm-border-main-label, 
-.atm-panel-control .atm-tab-panel .atm-color-controls, .atm-color-controls,
-.atm-panel-control .atm-tab-panel .atm-shadow-controls, .atm-shadow-controls, 
-.atm-panel-control .atm-tab-panel .atm-typography-controls, .atm-typography-controls, 
-.atm-panel-control .atm-tab-panel .atm-color-type, .atm-color-type, 
-.atm-panel-control .atm-tab-panel .atm-select-control, .atm-select-control {
+.antm-panel-control .antm-tab-panel .antm-border-main-label, 
+.antm-panel-control .antm-tab-panel .antm-color-controls, .antm-color-controls,
+.antm-panel-control .antm-tab-panel .antm-shadow-controls, .antm-shadow-controls, 
+.antm-panel-control .antm-tab-panel .antm-typography-controls, .antm-typography-controls, 
+.antm-panel-control .antm-tab-panel .antm-color-type, .antm-color-type, 
+.antm-panel-control .antm-tab-panel .antm-select-control, .antm-select-control {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
-.atm-shadow-position{
+.antm-shadow-position{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -538,12 +538,12 @@ button.atm_image_upload_btn {
   margin-bottom: 10px;
 }
 /* -----Color Picker Control----- */
-.atm-panel-control .atm-tab-panel .control-label-wrapper .button-wrapper, .control-label-wrapper .button-wrapper {
+.antm-panel-control .antm-tab-panel .control-label-wrapper .button-wrapper, .control-label-wrapper .button-wrapper {
   display: flex;
   align-items: center;
 }
-.atm-panel-control .button-wrapper .atm-color-toggle, .button-wrapper .atm-color-toggle, 
-.atm-panel-control .button-wrapper .atm-edit-toggle, .button-wrapper .atm-edit-toggle{
+.antm-panel-control .button-wrapper .antm-color-toggle, .button-wrapper .antm-color-toggle, 
+.antm-panel-control .button-wrapper .antm-edit-toggle, .button-wrapper .antm-edit-toggle{
   display: flex;
   padding: 7px;
   gap: 4px;
@@ -556,11 +556,11 @@ button.atm_image_upload_btn {
   box-shadow: none;
   cursor: pointer;
 }
-.atm-panel-control .atm-tab-panel .components-button.atm-color-toggle.is-secondary:hover:not(:disabled), .components-button.atm-color-toggle.is-secondary:hover:not(:disabled), .components-button.atm-color-toggle.is-secondary:focus:not(:disabled),
-.atm-panel-control .atm-tab-panel .components-button.atm-edit-toggle.is-secondary:hover:not(:disabled), .components-button.atm-edit-toggle.is-secondary:hover:not(:disabled){
+.antm-panel-control .antm-tab-panel .components-button.antm-color-toggle.is-secondary:hover:not(:disabled), .components-button.antm-color-toggle.is-secondary:hover:not(:disabled), .components-button.antm-color-toggle.is-secondary:focus:not(:disabled),
+.antm-panel-control .antm-tab-panel .components-button.antm-edit-toggle.is-secondary:hover:not(:disabled), .components-button.antm-edit-toggle.is-secondary:hover:not(:disabled){
   box-shadow: none;
 }
-.button-wrapper .atm-color-toggle span.atm-defined-color{
+.button-wrapper .antm-color-toggle span.antm-defined-color{
   width: 19px;
   height: 19px;
   background: repeating-conic-gradient(rgb(153, 153, 153) 0%, rgb(153, 153, 153) 25%, rgb(238, 238, 238) 0%, rgb(238, 238, 238) 50%) center center / 8px 8px;
@@ -568,11 +568,11 @@ button.atm_image_upload_btn {
   border-radius: 50%;
   box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
 }
-.atm-panel-control .atm-tab-panel .components-button.atm-color-toggle.is-pressed:hover:not(:disabled), .components-button.atm-color-toggle.is-pressed:hover:not(:disabled), 
-.atm-panel-control .atm-tab-panel .components-button.atm-edit-toggle.is-pressed:hover:not(:disabled), .components-button.atm-edit-toggle.is-pressed:hover:not(:disabled) {
+.antm-panel-control .antm-tab-panel .components-button.antm-color-toggle.is-pressed:hover:not(:disabled), .components-button.antm-color-toggle.is-pressed:hover:not(:disabled), 
+.antm-panel-control .antm-tab-panel .components-button.antm-edit-toggle.is-pressed:hover:not(:disabled), .components-button.antm-edit-toggle.is-pressed:hover:not(:disabled) {
   background: #fff;
 }
-.atm-panel-control .atm-tab-panel .button-wrapper span.atm-reset, .button-wrapper span.atm-reset{
+.antm-panel-control .antm-tab-panel .button-wrapper span.antm-reset, .button-wrapper span.antm-reset{
   color: #b69df3;
   font-size: 12px;
   display: flex;
@@ -585,13 +585,13 @@ button.atm_image_upload_btn {
   width: 300px;
   padding: 12px;
 }
-.atm-panel-control .atm-tab-panel .button-wrapper .atm-edit-toggle span.atm-open-edit, .button-wrapper .atm-edit-toggle span.atm-open-edit{
+.antm-panel-control .antm-tab-panel .button-wrapper .antm-edit-toggle span.antm-open-edit, .button-wrapper .antm-edit-toggle span.antm-open-edit{
   color: #5d6c83;
   height: 20px;
   width: 20px;
 }
 /* -----Responsive Range Control----- */
-.atm-panel-control .atm-tab-panel .atm-reset .components-button.components-range-control__reset, .atm-reset .components-button.components-range-control__reset{
+.antm-panel-control .antm-tab-panel .antm-reset .components-button.components-range-control__reset, .antm-reset .components-button.components-range-control__reset{
   border: none;
   font-weight: 600;
   color: #5E24EF;
@@ -599,21 +599,21 @@ button.atm_image_upload_btn {
   background: #e2d6fb;
   margin-left: -2px;
 }
-.atm-panel-control .atm-tab-panel .atm-reset .components-button.components-range-control__reset.is-secondary:hover:not(:disabled), .atm-reset .components-button.components-range-control__reset.is-secondary:hover:not(:disabled){
+.antm-panel-control .antm-tab-panel .antm-reset .components-button.components-range-control__reset.is-secondary:hover:not(:disabled), .antm-reset .components-button.components-range-control__reset.is-secondary:hover:not(:disabled){
   box-shadow: none;
 }
 /* -----Gradient Control----- */
-.atm-panel-control .atm-tab-panel .atm-color-type-controls, .atm-color-type-controls {
+.antm-panel-control .antm-tab-panel .antm-color-type-controls, .antm-color-type-controls {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 10px;
 }
-.atm-panel-control .atm-tab-panel .atm-color-type-control-tab, .atm-color-type-control-tab {
+.antm-panel-control .antm-tab-panel .antm-color-type-control-tab, .antm-color-type-control-tab {
   display: flex;
   gap: 4px;
 }
-.atm-panel-control .atm-tab-panel .atm-color-type-control-tab .atm-gradient-tab-button, .atm-color-type-control-tab .atm-gradient-tab-button {
+.antm-panel-control .antm-tab-panel .antm-color-type-control-tab .antm-gradient-tab-button, .antm-color-type-control-tab .antm-gradient-tab-button {
   border: 1px solid #e2e8f0;
   background-color: #fff;
   color: #000;
@@ -625,62 +625,62 @@ button.atm_image_upload_btn {
   width: 26px;
   min-width: unset;
 }
-.atm-panel-control .atm-tab-panel .atm-color-type-control-tab .atm-gradient-tab-button:hover{
+.antm-panel-control .antm-tab-panel .antm-color-type-control-tab .antm-gradient-tab-button:hover{
   color: #000;
 }
-.atm-panel-control .atm-tab-panel .atm-color-type-control-tab .atm-gradient-tab-button.is-active{
+.antm-panel-control .antm-tab-panel .antm-color-type-control-tab .antm-gradient-tab-button.is-active{
   color: #5E24EF;
   background-color: #e2d6fb;
   box-shadow: none;
   border-color: #e2d6fb;
 }
-.atm-panel-control .atm-tab-panel .atm-color-type-control-tab .atm-gradient-tab-button span {
+.antm-panel-control .antm-tab-panel .antm-color-type-control-tab .antm-gradient-tab-button span {
   font-size: 14px;
   display: flex;
   align-items: center;
 }
-.atm-panel-control .atm-tab-panel .atm-color-types {
+.antm-panel-control .antm-tab-panel .antm-color-types {
   padding-top: 10px;
 }
-.atm-panel-control .atm-tab-panel label.atm-background-type-label {
+.antm-panel-control .antm-tab-panel label.antm-background-type-label {
   margin-bottom: 8px;
 }
 /*----- Team Member -----*/
-.atm-team-member {
+.antm-team-member {
   padding: 20px;
   background-color: #fff;
   transition: 0.5s;
 }
-.atm-team-member:hover {
+.antm-team-member:hover {
   box-shadow: 0px 0px 10px rgba(33, 33, 33, 0.12);
 }
-.atm-team-member .atm-team-card-image img {
+.antm-team-member .antm-team-card-image img {
   object-fit: cover;
   margin: auto;
   display: block;
   width: 200px;
   height: 200px;
 }
-.atm-team-member .atm-bottom-content {
+.antm-team-member .antm-bottom-content {
   text-align: center;
 }
-.atm-team-member .heading .title {
+.antm-team-member .heading .title {
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
 }
-.atm-team-member .heading .designation {
+.antm-team-member .heading .designation {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
 }
-.atm-team-member .social-icon {
+.antm-team-member .social-icon {
   display: flex;
   padding-left: 0;
   list-style: none;
   justify-content: center;
 }
-.atm-team-member .social-icon a{
+.antm-team-member .social-icon a{
   display: block;
   list-style: none;
   width: 40px;
@@ -695,7 +695,7 @@ button.atm_image_upload_btn {
   align-items: center;
   text-decoration: none;
 }
-.atm-member-img {
+.antm-member-img {
   max-width: 100%;
   height: auto;
 }

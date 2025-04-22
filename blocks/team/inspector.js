@@ -89,31 +89,31 @@ export default function inspector(props) {
 
   	return (
 		<InspectorControls key="inspector">
-			<div className='atm-panel-control'>
+			<div className='antm-panel-control'>
 					<TabPanel
-						className="atm-tab-panel"
+						className="antm-tab-panel"
 						activeClass="active-tab"
 						onSelect={ onSelect }
 						tabs={ [
 							{
 								name: 'general',
 								title: 'General',
-								className: 'atm-tab general',
+								className: 'antm-tab general',
 							},
 							{
 								name: 'style',
 								title: 'Style',
-								className: 'atm-tab style',
+								className: 'antm-tab style',
 							},
 							{
 								name: 'advanced',
 								title: 'Advanced',
-								className: 'atm-tab advanced',
+								className: 'antm-tab advanced',
 							},
 						] }
 					>
 					{ ( tab ) => 
-						<div className= {"atm-tab-controls " + tab.name }>
+						<div className= {"antm-tab-controls " + tab.name }>
 							{ 
 								"general" === tab.name && 
 								<>
@@ -122,7 +122,7 @@ export default function inspector(props) {
 								opened={activeGeneralPanel === 'content'}
 								onToggle={() => toggleGeneralPanel('content')}
 								>
-									<BaseControl label="Choose Image" className="atm-control-label">
+									<BaseControl label="Choose Image" className="antm-control-label">
 										<MediaUploadCheck>
 											{ ! attributes.image &&
 												<MediaUpload
@@ -130,7 +130,7 @@ export default function inspector(props) {
 													type="image"
 													value={ attributes.image }
 													render={ ( { open } ) => (
-													<Button className="atm_image_upload_btn" onClick={ open } aria-label="Upload Image">
+													<Button className="antm_image_upload_btn" onClick={ open } aria-label="Upload Image">
 															<Dashicon icon="format-image" onClick={ open } /> 
 													</Button>
 														) } >
@@ -144,21 +144,18 @@ export default function inspector(props) {
 										</MediaUploadCheck>
 									</BaseControl>
 									<TextControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Name", "anant-team-member")}
 										value={attributes.title}
 										onChange={ ( value ) => { setAttributes( { title: value } );}}
 									/>
 									<TextControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Designation", "anant-team-member")}
 										value={attributes.designation}
 										onChange={ ( value ) => { setAttributes( { designation: value } );}}
 									/>
 										<IconRepeater {...props}/>
-									<div className='atm-pro-notice'>
-										More than 4 are available in <a href="https://info.com/" target="_blank">Pro Version!</a>
-									</div>
 								</PanelBody>
 								<PanelBody 
 								title={ __( 'Settings' ) } 
@@ -166,39 +163,29 @@ export default function inspector(props) {
 								onToggle={() => toggleGeneralPanel('settings')}
 								>
 									<ToggleControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Show Image", "anant-team-member")}
 										checked={showImage}
 										onChange={(showImage) => setAttributes({ showImage })}
 									/>
 									<ToggleControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Show Name", "anant-team-member")}
 										checked={showName}
 										onChange={(showName) => setAttributes({ showName })}
 									/>
 									<ToggleControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Show Designation", "anant-team-member")}
 										checked={showDesignation}
 										onChange={(showDesignation) => setAttributes({ showDesignation })}
 									/>
 									<ToggleControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Show Social Icon", "anant-team-member")}
 										checked={showicons}
 										onChange={(showicons) => setAttributes({ showicons })}
 									/>
-								</PanelBody>
-								<PanelBody 
-								title={__("Go Premium for More Features", "anant-team-member")} 
-								opened={activeGeneralPanel === 'proNotice'}
-								onToggle={() => toggleGeneralPanel('proNotice')}
-								className='atm-pro-notice-body'
-								>
-									<div className='atm-pro-features'>
-									GET THE  <a href="https://info.com/" target="_blank">PRO VERSION</a> FOR MORE STUNNING ELEMENTS.
-									</div>
 								</PanelBody>
 								</>
 							}
@@ -362,7 +349,7 @@ export default function inspector(props) {
 										onChange={ ( value ) => { setAttributes( { teamTitleTagName: value } );}}
 									/>
 									<ColorPickerControl
-										className="atm-color-style"
+										className="antm-color-style"
 										values={teamTitleColor}
 										onChange={(value) => {
 											setAttributes({
@@ -372,7 +359,7 @@ export default function inspector(props) {
 										label="Color"
 									/>
 									<ColorPickerControl
-										className="atm-color-style"
+										className="antm-color-style"
 										values={teamTitleHoverColor}
 										onChange={(value) => {
 											setAttributes({
@@ -414,7 +401,7 @@ export default function inspector(props) {
 										label="Alignment" 
 									/>
 									<ColorPickerControl
-										className="atm-color-style"
+										className="antm-color-style"
 										values={teamDesignationColor}
 										onChange={(value) => {
 											setAttributes({
@@ -424,7 +411,7 @@ export default function inspector(props) {
 										label="Color"
 									/>
 									<ColorPickerControl
-										className="atm-color-style"
+										className="antm-color-style"
 										values={teamDesignationHoverColor}
 										onChange={(value) => {
 											setAttributes({
@@ -466,29 +453,29 @@ export default function inspector(props) {
 										label="Alignment" 
 									/>
 									<TabPanel
-										className="atm-tab-panel"
+										className="antm-tab-panel"
 										activeClass="tab-active"
 										onSelect={ onSelect }
 										tabs={ [
 											{
 												name: 'normal',
 												title: 'Normal',
-												className: 'atm-button normal',
+												className: 'antm-button normal',
 											},
 											{
 												name: 'hover',
 												title: 'Hover',
-												className: 'atm-button hover',
+												className: 'antm-button hover',
 											},
 										] }
 									>
 										{ ( tab ) =>
-										<div className= {"atm-tab-controls " + tab.name }>
+										<div className= {"antm-tab-controls " + tab.name }>
 									{ 
 									"normal" === tab.name && 
 									<>
 										<ColorPickerControl
-											className="atm-color-style"
+											className="antm-color-style"
 											values={teamSocialIconBgColor}
 											onChange={(value) => {
 												setAttributes({
@@ -498,7 +485,7 @@ export default function inspector(props) {
 											label="Background Color"
 										/>
 										<ColorPickerControl
-											className="atm-color-style"
+											className="antm-color-style"
 											values={teamSocialIconColor}
 											onChange={(value) => {
 												setAttributes({
@@ -561,7 +548,7 @@ export default function inspector(props) {
 									"hover" === tab.name && 
 									<>
 										<ColorPickerControl
-											className="atm-color-style"
+											className="antm-color-style"
 											values={teamSocialIconHoverBgColor}
 											onChange={(value) => {
 												setAttributes({
@@ -571,7 +558,7 @@ export default function inspector(props) {
 											label="Background Color"
 										/>
 										<ColorPickerControl
-											className="atm-color-style"
+											className="antm-color-style"
 											values={teamSocialIconHoverColor}
 											onChange={(value) => {
 												setAttributes({
@@ -614,19 +601,19 @@ export default function inspector(props) {
 									onToggle={() => toggleAdvancedPanel('responsive')}
 								>
 									<ToggleControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Hide Desktop", "anant-team-member")}
 										checked={hideDesktop}
 										onChange={(hideDesktop) => setAttributes({ hideDesktop })}
 									/>
 									<ToggleControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Hide Tablet", "anant-team-member")}
 										checked={hideTablet}
 										onChange={(hideTablet) => setAttributes({ hideTablet })}
 									/>
 									<ToggleControl
-										className="atm-control-label"
+										className="antm-control-label"
 										label={__("Hide Mobile", "anant-team-member")}
 										checked={hideMobile}
 										onChange={(hideMobile) => setAttributes({ hideMobile })}
